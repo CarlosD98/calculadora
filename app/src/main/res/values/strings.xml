@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">calculadora</string>
+    <string name="N1">1</string>
+    <string name="N2">2</string>
+    <string name="N3">3</string>
+    <string name="N4">4</string>
+    <string name="N5">5</string>
+    <string name="N6">6</string>
+    <string name="N7">7</string>
+    <string name="N8">8</string>
+    <string name="N9">9</string>
+    <string name="N0">0</string>
+    <string name="CE">CE</string>
+    <string name="Division">/</string>
+    <string name="Multiplication">X</string>
+    <string name="Plus">+</string>
+    <string name="Minus">-</string>
+    <string name="C">C</string>
+    <string name="equal">=</string>
+    <string name="dot">.</string>
+    <string name="negative">+/-</string>
+    <string name="Back">(</string>
+
+</resources>

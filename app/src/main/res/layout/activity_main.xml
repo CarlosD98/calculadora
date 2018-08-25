@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="0.0"
+           android:textSize="50sp"
+           android:textAlignment="textEnd"/>
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                style="@style/MainButton"
+                android:text="@string/CE" />
+
+            <Button
+                style="@style/MainButton"
+                android:text="@string/N7" />
+
+            <Button
+                style="@style/MainButton"
+                android:text="@string/N4" />
+
+            <Button
+                style="@style/MainButton"
+                android:text="@string/N1" />
+
+            <Button
+                style="@style/MainButton"
+                android:text="@string/negative" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                style="@style/MainButton"
+                android:text="@string/C" />
+
+            <Button
+                style="@style/MainButton"
+                android:text="@string/N8" />
+
+            <Button
+                style="@style/MainButton"
+                android:text="@string/N5" />
+
+            <Button
+                style="@style/MainButton"
+                android:text="@string/N2" />
+
+            <Button
+                style="@style/MainButton"
+                android:text="@string/N0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+               style="@style/MainButton"
+                android:text="@string/Back"
+                />
+
+            <Button
+                style="@style/MainButton"
+                android:text="@string/N9" />
+
+            <Button
+                style="@style/MainButton"
+                android:text="@string/N4" />
+
+            <Button
+                style="@style/MainButton"
+                android:text="@string/N1" />
+
+            <Button
+                style="@style/MainButton"
+                android:text="@string/dot" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                style="@style/MainButton"
+                android:text="@string/Division" />
+
+            <Button
+                style="@style/MainButton"
+                android:text="@string/Multiplication" />
+
+            <Button
+                style="@style/MainButton"
+                android:text="@string/Minus" />
+
+            <Button
+                style="@style/MainButton"
+                android:text="@string/Plus" />
+
+            <Button
+                style="@style/MainButton"
+                android:text="@string/equal" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
